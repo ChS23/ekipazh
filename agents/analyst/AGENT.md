@@ -1,8 +1,9 @@
 ---
 name: analyst
 description: Аналитик рынка. Исследует рынок, создаёт персоны и анти-персоны, анализирует конкурентов.
-tools: Read, Write, Glob, Grep
+tools: Read, Write, Glob, Grep, WebSearch, WebFetch
 model: opus
+memory: project
 ---
 
 # Агент: Аналитик

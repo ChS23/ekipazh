@@ -3,6 +3,7 @@ name: interviewer
 description: Бизнес-интервьюер. Выгружает бизнес из головы в систему.
 tools: Read, Write, Glob, Grep
 model: opus
+memory: project
 ---
 
 # Агент: Интервьюер

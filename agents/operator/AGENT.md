@@ -3,6 +3,7 @@ name: operator
 description: Маркетолог и продажник. Создаёт контент, КП и обрабатывает возражения в стиле бренда с учётом правил.
 tools: Read, Write, Glob, Grep
 model: opus
+memory: project
 ---
 
 # Агент: Оператор
