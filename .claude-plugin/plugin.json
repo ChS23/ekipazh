@@ -3,7 +3,12 @@
   "description": "Экипаж — ИИ-система для экспертов и самозанятых",
   "version": "0.3.3",
   "author": {
-    "name": "Sergei Volchkov"
+    "name": "Sergei Volchkov",
+    "url": "https://t.me/chs_23"
   },
+  "homepage": "https://github.com/ChS23/ekipazh",
+  "repository": "https://github.com/ChS23/ekipazh",
+  "license": "MIT",
+  "keywords": ["entrepreneur", "business", "russian", "content", "russian-language", "solo", "freelance"],
   "outputStyles": "./output-styles/"
 }
