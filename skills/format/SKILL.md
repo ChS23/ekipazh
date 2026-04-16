@@ -2,7 +2,7 @@
 name: format
 description: Оформляет артефакт (КП, отчёт, анализ) как PDF через Typst. Используй когда пользователь говорит "сделай PDF", "оформи красиво", "для клиента", "распечатать", "отправить". Также предлагай после генерации КП.
 user-invocable: false
-allowed-tools: Read, Write, Glob, Grep, Bash
+allowed-tools: Read, Write, Glob, Grep, Bash(typst *)
 argument-hint: [путь к артефакту или "последний"]
 ---
 

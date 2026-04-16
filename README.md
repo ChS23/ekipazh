@@ -15,6 +15,32 @@ claude --plugin-dir ./ekipazh/
 1. `/config` → Output style → **Экипаж**
 2. Перезапусти сессию
 
+## Разрешения (чтобы не спрашивало каждый раз)
+
+По умолчанию Claude Code спрашивает подтверждение на каждую операцию. Чтобы работал без трения, добавь в свой `~/.claude/settings.json`:
+
+```json
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Write",
+      "Glob",
+      "Grep",
+      "Bash(typst *)",
+      "WebSearch",
+      "WebFetch"
+    ]
+  },
+  "defaultMode": "acceptEdits"
+}
+```
+
+- `Read`, `Write`, `Glob`, `Grep` — файловые операции, работают одинаково на Linux/Mac/Windows
+- `Bash(typst *)` — для генерации PDF через `/format`
+- `WebSearch`, `WebFetch` — для `/analyze` (поиск данных о рынке)
+- `defaultMode: "acceptEdits"` — автоматически принимает правки файлов без подтверждения
+
 ## Что есть
 
 | Скилл | Что делает |

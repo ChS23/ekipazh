@@ -2,7 +2,7 @@
 name: workflow
 description: Создаёт правило и персональный скилл под конкретный инструмент предпринимателя. Используй когда пользователь описывает рабочий процесс, говорит "я использую Telegram для...", "веду Instagram", "отвечаю в WhatsApp", "хочу автоматизировать".
 user-invocable: false
-allowed-tools: Read, Write, Glob, Grep, Bash
+allowed-tools: Read, Write, Glob, Grep
 argument-hint: [инструмент — например "Telegram-канал" или "ответы в WhatsApp"]
 effort: max
 ---

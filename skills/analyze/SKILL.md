@@ -1,7 +1,7 @@
 ---
 name: analyze
 description: Анализирует рынок — создаёт персоны, анти-персону, карту конкурентов, SWOT. Используй когда пользователь спрашивает про клиентов, конкурентов, рынок, говорит "кто мои клиенты", "кто конкуренты", "проанализируй".
-allowed-tools: Read, Write, Glob, Grep
+allowed-tools: Read, Write, Glob, Grep, WebSearch, WebFetch
 argument-hint: [фокус анализа]
 effort: max
 ---
