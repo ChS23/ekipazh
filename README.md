@@ -6,14 +6,31 @@
 
 ## Установка
 
+В Claude Code:
+
+```
+/plugin marketplace add ChS23/ekipazh
+/plugin install ekipazh@ekipazh-marketplace
+```
+
+Затем:
+1. `/config` → Output style → **Экипаж**
+2. Перезапусти сессию
+
+### Обновление
+
+```
+/plugin marketplace update ekipazh-marketplace
+```
+
+Плагин автоматически проверяет обновления при старте сессии. После обновления `version` в `plugin.json` — новая версия тянется автоматически.
+
+### Локальная разработка
+
 ```bash
 git clone https://github.com/ChS23/ekipazh.git
 claude --plugin-dir ./ekipazh/
 ```
-
-Затем в сессии:
-1. `/config` → Output style → **Экипаж**
-2. Перезапусти сессию
 
 ## Разрешения (чтобы не спрашивало каждый раз)
 

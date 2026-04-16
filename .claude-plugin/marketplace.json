@@ -1,0 +1,16 @@
+{
+  "name": "ekipazh-marketplace",
+  "owner": {
+    "name": "Sergei Volchkov"
+  },
+  "metadata": {
+    "description": "Экипаж — плагин Claude Code для экспертов и самозанятых"
+  },
+  "plugins": [
+    {
+      "name": "ekipazh",
+      "source": "./",
+      "description": "ИИ-команда для экспертов и самозанятых — профиль бизнеса, правила, контент, КП"
+    }
+  ]
+}
