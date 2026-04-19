@@ -6,7 +6,23 @@
 
 ## Установка
 
-В Claude Code:
+Плагин работает в двух продуктах Anthropic — выбирай тот что подходит.
+
+### Claude Cowork (проще, рекомендуем для ежедневной работы)
+
+Десктопное приложение, без терминала. Подходит всем.
+
+1. Скачай Claude desktop: [claude.com/download](https://claude.com/download)
+2. Войди с подпиской Pro/Max/Team/Enterprise
+3. В Claude desktop → вкладка **Cowork**
+4. `/plugin marketplace add ChS23/ekipazh`
+5. `/plugin install ekipazh@ekipazh-marketplace`
+6. Разреши Cowork доступ к папке своего бизнеса
+7. `/статус` — проверка работы
+
+### Claude Code (мощнее, для тех кто хочет копнуть глубже)
+
+CLI в терминале, полный контроль. Подходит тем кто работает в IDE.
 
 ```
 /plugin marketplace add ChS23/ekipazh
